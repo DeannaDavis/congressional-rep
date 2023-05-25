@@ -1,0 +1,41 @@
+.basic_information {
+    display: flex;
+    font-style: inherit;
+}
+
+.facts {
+    border: 1px;
+    border-style: dashed;
+    border-color: darkgoldenrod;
+    flex: wrap;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+#aboutWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image_pasted {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image_pasted:hover {
+    background-color: darkgray;
+}
+
+.image_html {
+    align-self: center;
+}
+
+.legislation_enacted{
+    text-align: center;
+}
+
+
